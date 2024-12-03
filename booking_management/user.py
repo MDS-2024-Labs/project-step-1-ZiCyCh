@@ -6,11 +6,10 @@ class User:
 
     def __init__(self, name, email):
         if any(user.name == name and user.email == email for user in User._users):
-            raise ValueError("A user with this name and email already exists.")
+            print("user's information has been updated")
         self.name = name
         self.email = email
         User._users.append(self)
-
     @classmethod
     def get_all_users(cls):
         return cls._users
