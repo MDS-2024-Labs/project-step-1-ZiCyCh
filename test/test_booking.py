@@ -1,7 +1,17 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import unittest
 from booking_management.booking import Booking
 from booking_management.user import User
 from vehicle_management.vehicle import Vehicle
+
+
+
+# Add the root directory to sys.path
+
+
+
 
 class TestBooking(unittest.TestCase):
     @classmethod

@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import unittest
 from vehicle_management.fleet import Fleet
 from vehicle_management.vehicle import Vehicle
