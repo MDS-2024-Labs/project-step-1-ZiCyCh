@@ -1,5 +1,5 @@
 # `car_sharing_system` Package
-### Author: [Your Name]
+### Author: Tianmu Wang, Zifei Chen
 
 The `car_sharing_system` Package is a modular framework for managing a car-sharing platform. It is divided into two sub-packages: **booking_management** and **vehicle_management**.
 
